@@ -1,3 +1,10 @@
+# Owner: Miguel Almeida
+# Script Name: ASIAIR Data Organizer
+# Purpose: Organize astronomy data by filter, target, and exposure time, from ASIAIR software
+# Release Date: January 24th, 2023
+# Release Version: 1.2.0
+# Languages: Python
+# Libraries: PyQt5, os, shutil
 import os
 import shutil
 from PyQt5.QtWidgets import (QApplication, QLabel, QLineEdit, QPushButton, QVBoxLayout, QWidget, QFileDialog, QCheckBox)
